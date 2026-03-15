@@ -1,0 +1,35 @@
+# Web framework
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+
+# LangGraph + LangChain
+langgraph==0.2.55
+langchain==0.3.12
+langchain-aws==0.2.9
+
+# AWS
+boto3>=1.26.0
+
+# Vector store
+pinecone==6.0.0
+
+# Database (checkpointer)
+motor==3.6.0
+beanie==1.26.0
+langgraph-checkpoint-postgres==2.0.21
+psycopg[binary,pool]==3.2.4
+
+# HTTP client (delivery callbacks to backend)
+httpx==0.28.1
+
+# Image processing (HEIC/HEIF → JPEG conversion)
+pillow>=10.4.0
+pillow-heif>=0.18.0
+
+# Config
+pydantic-settings==2.6.1
+python-dotenv==1.0.1
+
+# Testing
+pytest==8.3.4
+pytest-asyncio==0.24.0
